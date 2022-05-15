@@ -85,6 +85,10 @@ input[type=checkbox]{
     .menu a{
         background-color: #F9CEEE;
     }
+    .img img{
+    width: 100%;
+    
+}
     }
     .news-section{
         display: flex;
