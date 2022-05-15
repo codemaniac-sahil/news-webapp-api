@@ -11,7 +11,6 @@ async function getgeolocation(){
         url1='https://gnews.io/api/v4/top-headlines?token=a175ac9bf19a19e7e95f50136ebffcbb&country='
         url2=current_location.toLowerCase()+'&lang=en'
         full_url=url1+url2;
-        console.log(full_url)
         let response1=await fetch(full_url);
         let data1=await response1.json()
         for(var i=0;i<data1.articles.length;i++){
