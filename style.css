@@ -112,19 +112,25 @@ input[type=checkbox]{
 }
 .footer{
     background-color: #242424;
-    height: 200px;
+    height: 230px;
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
-    padding: 30px 0;
+    padding: 20px 28px;
+    background-color:grey;
     gap: 2em;
     
 }
 .footer li{
     list-style: none;
-    margin-top: 10px;    
+    margin-top: 10px;  
+    font-size:1.2em; 
 }
 .footer li a{
     text-decoration: none;
     color: white;
+    font-family:consolas;
+}
+#b,#c,#a{
+color: whitesmoke;
 }
