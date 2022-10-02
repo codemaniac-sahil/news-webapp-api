@@ -11,34 +11,58 @@ body{
     align-items: center;
     justify-content: space-between;
     padding: 20px;
-    background-color:#F9CEEE;
+    background-color:#000000;
     color: #6D8B74;
-
+    
+}
+hr
+{
+    height:1px;
+    width: 5%;
+    border-style: none;
+    border-color:rgb(181, 181, 181);
+    border-top-style: dotted; 
+    border-top-width: 7px;
 }
 .menu{
     display: flex;
     gap: 1em;
-    background-color: #F9CEEE;
+    background-color: #000000;
 }
 .menu a{
-    color: #5F7161;
-    background-color: #F9CEEE;
+    font-family:Arial, Helvetica, sans-serif;
+    color: #ffffff;
+    background-color: #000000;
     text-decoration: none;
+    border-right: 2px solid white;
+    padding-right:25px;
 }
 .logo{
+    font-family:Arial, Helvetica, sans-serif;
     font-size: 30px;
-    background-color: #F9CEEE;
+    color : #ffffff;
+    background-color: #000000;
+    border-right: 2px solid white;
+    padding-right:40px;
 }
 .menu li a:hover{
-    background-color: #97C4B8;
+    background-color: #ffffff;
+    color:#000000;
     padding: 10px;
     border-radius: 5px;
-    transition: 0.3s ease;
-    font-weight: bolder;
-
+    font-weight : bold;
 }
 .menu li{
     list-style: none;
+}
+.top{
+    color:rgb(190, 14, 14);
+}
+.img{
+    height:40%;
+}
+.read{
+    color:rgb(190, 14, 14);
 }
 input[type=checkbox]{
     display: none;
@@ -54,7 +78,7 @@ input[type=checkbox]{
     .menu { 
      display:none;
      position: absolute;
-     background-color:#F9CEEE;
+     background-color:#000000;
      right: 0;
      left: 0;
      text-align: center;
@@ -62,7 +86,7 @@ input[type=checkbox]{
     }
     .menu li:hover {
      display: inline-block;
-     background-color:#F9CEEE;
+     background-color:#000000;
      transition: 0.3s ease;
     }
     .menu li + li {
@@ -80,10 +104,12 @@ input[type=checkbox]{
      transform: translateX(35%);
     }
     .dropdown li:hover {
-     background-color: #F9CEEE;
+     background-color: #000000;
     }
     .menu a{
-        background-color: #F9CEEE;
+        border:none;
+        background-color: #000000;
+        color: rgb(255, 255, 255);
     }
     .img img{
     width: 100%;
@@ -104,6 +130,8 @@ input[type=checkbox]{
     display: flex;
     flex-direction: column;
     gap: 2em;
+    margin-left:25%;
+    margin-right:25%;
 }
 .news p{
     font-size: 20px;
