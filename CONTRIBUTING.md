@@ -29,7 +29,7 @@ If you're new to _git_ and/or _GitHub_, we suggest you go through [the GitHub Gu
 3. Create a new branch from the latest branch `main`
 4. Start editing file(s) on the new branch
 5. Commit and push to the new branch
-6. Make a pull request towards the original repository ([codemaniac-sahil/currency_converter_react](https://github.com/codemaniac-sahil/news-webapp-api))
+6. Make a pull request towards the original repository ([codemaniac-sahil/news-webapp-api](https://github.com/codemaniac-sahil/news-webapp-api))
 
 ## Pull Request Guidelines
 
