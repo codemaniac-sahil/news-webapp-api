@@ -1,18 +1,49 @@
-# NEWS.com
 
-This website shows the top headlines of user's country.
+# NEWS.COM
 
-# Language used : 
+The website basically shows the top news headline of the country in which the user is browsing the site 
 
-1) HTML
-2) CSS
-3) JavaScript
 
-# API Used : 
 
-1) IPAPI : For getting user's residing country.
-2) gnews : For fetching news.
+## Languages Used
 
-You can test the website by clicking the link given below
+**HTML**
 
-Website link : https://harmonious-figolla-9338f7.netlify.app/
+**CSS**
+
+**JAVASCRIPT**
+
+
+
+## Contributing
+
+Contributions are always welcome!
+
+See `contributing.md` for ways to get started.
+
+Please adhere to this project's `code of conduct`.
+
+
+## API Reference
+
+1. IPAPI : For getting user's residing country.
+
+2. gnews : For fetching news.
+
+
+## Author
+
+- Sahli Bisht [@codemaniac-Sahil](https://www.github.com/codemaniac-sahil)
+
+
+## Support
+
+For support, reach me out at [@bisht_6903](https://twitter.com/Bisht_6903)
+
+
+## Appendix
+
+You can check out the site from the below link 
+
+https://harmonious-figolla-9338f7.netlify.app/
+
