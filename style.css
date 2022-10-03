@@ -122,10 +122,34 @@ input[type=checkbox]{
         justify-content: center;
         flex-wrap: wrap;
     }
+    .news-section1{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+    }
 .img img{
     width: 100%;
     height:90vh;
 }
+#world_news{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+}
+.world_news p{
+    font-size: 20px;
+    color: black;
+    font-weight: bolder;
+}
+
+.news-heading1{
+    font-size: 30px;
+    font-weight: bolder;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
 #news{
     display: flex;
     flex-direction: column;

@@ -1,4 +1,5 @@
 // https://gnews.io/api/v4/top-headlines?token=a175ac9bf19a19e7e95f50136ebffcbb&country=in&lang=en
+//https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=efbe6953b5e24dc7857c47ac7e35e650
 async function getgeolocation(){
     
     let url='https://ipapi.co/json';
@@ -28,3 +29,4 @@ async function getgeolocation(){
 }
 
 getgeolocation()
+
