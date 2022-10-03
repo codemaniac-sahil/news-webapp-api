@@ -126,18 +126,35 @@ input[type=checkbox]{
     width: 100%;
     height:90vh;
 }
-#news{
+
+.allnews {
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    gap: 2em;
-    margin-left:25%;
-    margin-right:25%;
+    flex-wrap: wrap;
+    gap: 1rem;
+} 
+
+.news {
+    width: 20rem;
+    height: 20rem;
+    margin-bottom: 1rem;
 }
+
+.news p{
+    background-color: red;
+}
+
+.news img {
+    width: 100%;
+
+}
+
 .news p{
     font-size: 20px;
     color: black;
     font-weight: bolder;
 }
+
 .footer{
     background-color: #242424;
     height: 230px;
@@ -147,6 +164,7 @@ input[type=checkbox]{
     padding: 20px 28px;
     background-color:grey;
     gap: 2em;
+    z-index: 1000;
     
 }
 .footer li{
