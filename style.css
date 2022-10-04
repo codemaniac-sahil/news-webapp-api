@@ -201,3 +201,25 @@ color: whitesmoke;
     margin: auto;
    margin: 0; 
    }
+
+   .socials{
+    text-align: center;
+    color:rgb(25, 23, 23);
+    padding-bottom: 20px;
+   }
+
+   .socials a{
+    color:inherit;
+    font-size: 25px;
+    border:rgb(25, 23, 23);
+    height:40px;
+    width:40px;
+    display:inline-block;
+    text-align:center;
+    border-radius: 50%;
+   }
+
+   .socials a:hover{
+    cursor:pointer;
+    opacity:0.9;
+   }
