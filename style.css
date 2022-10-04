@@ -186,3 +186,18 @@ input[type=checkbox]{
 #b,#c,#a{
 color: whitesmoke;
 }
+
+.footer-content{
+    display: flex; 
+    justify-content: center; 
+   margin: auto; 
+   position: fixed;
+   bottom: 0;
+   display: block;
+    font-size: 20px;
+    font-weight: bold;
+    align-items: center;
+    justify-items: baseline;
+    margin: auto;
+   margin: 0; 
+   }
