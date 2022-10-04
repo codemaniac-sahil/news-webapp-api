@@ -46,4 +46,9 @@ For support, reach me out at [@bisht_6903](https://twitter.com/Bisht_6903)
 You can check out the site from the below link 
 
 https://harmonious-figolla-9338f7.netlify.app/
+## Contributors
+
+Thanks a lot for spending your time helping news-webapp-api.
+
+[![Contributors](https://contrib.rocks/image?repo=codemaniac-sahil/news-webapp-api)](https://github.com/codemaniac-sahil/news-webapp-api/graphs/contributors)
 
