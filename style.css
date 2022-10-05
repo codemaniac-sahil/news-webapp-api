@@ -206,20 +206,22 @@ color: whitesmoke;
     text-align: center;
     color:rgb(25, 23, 23);
     padding-bottom: 20px;
+    padding-top: 20px;
    }
 
    .socials a{
     color:inherit;
+    border:1px solid black;
     font-size: 25px;
-    border:rgb(25, 23, 23);
-    height:40px;
-    width:40px;
-    display:inline-block;
+    height:35px;
+    width:37px;
+    display: inline-block;
     text-align:center;
     border-radius: 50%;
+    padding-top:6px;
    }
 
    .socials a:hover{
-    cursor:pointer;
+    cursor:pointer; border:rgb(25, 23, 23);
     opacity:0.9;
    }
