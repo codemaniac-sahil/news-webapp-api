@@ -11,7 +11,7 @@ body {
 
 .navBtns{
 
-    font-family: 'Satoshi';
+    font-family: 'Satoshi', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -21,7 +21,7 @@ body {
 }
 
 .dark {
-    font-family: 'Satoshi';
+    font-family: 'Satoshi', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 16px;
@@ -29,7 +29,7 @@ body {
     color: #222526;
 }
 .contact{
-font-family: 'Satoshi';
+font-family: 'Satoshi', sans-serif;
 font-style: normal;
 font-weight: 700;
 font-size: 16px;
@@ -47,7 +47,7 @@ filter: drop-shadow(0px 14px 40px rgba(31, 138, 244, 0.29));
 
 .Top-Heading{
 
-    font-family: 'Satoshi';
+    font-family: 'Satoshi', sans-serif;
 font-style: normal;
 font-weight: 900;
 
@@ -183,8 +183,15 @@ input[type=checkbox] {
 }
 
 .img img {
-    width: 100%;
-    height: 90vh;
+    width: 390.69px;
+    height: 462px;
+    border-radius: 24px;
+    padding: 16px 15px 115px 15px ;
+    background-color: #FFFFFF;
+    border: 1px solid #2292F5;
+    box-shadow: 0px 12px 35px rgba(180, 177, 202, 0.2);
+    border-radius: 32px;
+    
 }
 
 #world_news {
@@ -207,17 +214,43 @@ input[type=checkbox] {
 }
 
 #news {
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    margin-left: 25%;
-    margin-right: 25%;
+   
+    margin-top:65px;
+    margin-left:auto ;
+    margin-right:auto;
+    display: grid;
+    grid-template-columns: auto auto;
+    
+    /* place-items: center; */
+    /* box-sizing: border-box; */
+    /* width: 390.69px; */
+    /* height: 462px; */
+    
 }
 
 .news p {
-    font-size: 20px;
-    color: black;
-    font-weight: bolder;
+    font-family: 'Satoshi', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 15px;
+    color: #222526;
+    width: 50%;
+    text-align: left;
+    margin: -100px 0 80px 20px;
+    
+}
+.news a {
+    font-family: 'Satoshi';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 18px;
+    line-height: 50px;
+    text-decoration-line: underline;
+    text-transform: capitalize;
+    color: #FF765E;
+    text-align: left;
+    margin-top: 10px;
+    
 }
 
 .footer {
@@ -262,5 +295,29 @@ input[type=checkbox] {
     align-items: center;
     justify-items: baseline;
     margin: auto;
-    margin: 0;
-}
+   margin: 0; 
+   }
+
+  .socials{
+    text-align: center;
+    color:rgb(25, 23, 23);
+    padding-bottom: 20px;
+    padding-top: 20px;
+   }
+
+   .socials a{
+    color:inherit;
+    border:1px solid black;
+    font-size: 25px;
+    height:35px;
+    width:37px;
+    display: inline-block;
+    text-align:center;
+    border-radius: 50%;
+    padding-top:6px;
+   }
+
+   .socials a:hover{
+    cursor:pointer; border:rgb(25, 23, 23);
+    opacity:0.9;
+   }
