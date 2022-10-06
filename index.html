@@ -9,12 +9,52 @@
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
 
+    <!-- tailwind CSS -->
+    <link rel="stylesheet" href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css" />
+    <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
+
 </head>
 <style>
     p {text-align: center;}
     </style>
 <body>
-    <div class="navbar">
+
+   <!-- nav bar  -->
+<nav class="bg-white border-gray-200 px-2 sm:px-4 py-3 navbar">
+    <div class="container flex flex-wrap justify-between items-center mx-auto">
+      <a href="#" class="flex items-center">
+          <img src="./Assets/logo.png" class=" h-10 sm:h-8" alt="Logo">
+      </a>
+      <button data-collapse-toggle="navbar-default" type="button" class="inline-flex items-center p-2 ml-3 text-sm text-gray-500 rounded-lg md:hidden hover:bg-gray-100 focus:outline-none focus:ring-2 focus:ring-gray-200 dark:text-gray-400 dark:hover:bg-gray-700 dark:focus:ring-gray-600" aria-controls="navbar-default" aria-expanded="false">
+        <span class="sr-only">Open main menu</span>
+        <svg class="w-6 h-6" aria-hidden="true" fill="currentColor" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg"><path fill-rule="evenodd" d="M3 5a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 10a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1zM3 15a1 1 0 011-1h12a1 1 0 110 2H4a1 1 0 01-1-1z" clip-rule="evenodd"></path></svg>
+      </button>
+      <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <ul class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0  md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700">
+          <li>
+            <a href="#" class="navBtns" aria-current="page">Home</a>
+          </li>
+          <li>
+            <a href="#" class="dark">Latest News</a>
+          </li>
+          <li>
+            <a href="#" class="dark">top News</a>
+          </li>
+          <li>
+            <a href="#" class="dark">World</a>
+          </li>
+          <li class="sm:mt-11">
+            <a href="#" class="contact ">Contact Us</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  
+
+
+
+    <!-- <div class="navbar">
         <div class="logo">NEWS.com</div>
         <ul class="navlinks">
             <input type="checkbox" id="checkbox_toggle" />
@@ -28,17 +68,24 @@
 
             </div>
         </ul>
-    </div>
-    <div class="news-section">
+    </div> -->
+    
+    <h1 class="pt-24 Top-Heading text-4xl sm:text-xl">Top Headlines of <div id="country"> </div>
+    </h1>
+
+    <!-- <div class="news-section">
         <div class="news-heading">
             <br>
-            <h1 class="top">Top Headlines of <span id="country"></span> </h1><br>
+            <h1 class="top">Top Headlines of India
+            </span> </h1><br>
             <br>
         </div>
-    </div>
+    </div> -->
     <div id="news">
 
     </div>
+
+
     <div class="footer">
         <ul class="list1"><span id="b">ABOUT US</span><br><hr>
             <li><a href="#">About us</a></li>
@@ -62,11 +109,17 @@
         <a href="#"><i class="fab fa-twitter"></i></a>
         <a href="#"><i class="fab fa-facebook"></i></a>
     </div>
+<<<<<<< HEAD
+    <!-- <div class="footer-content">
+=======
     <div class="footer-content">
+>>>>>>> 43130b1d4a0e466f7b572b82c9cd2a0f1a40e3bc
         <p> © 2022 Copyright News.<br>
         All Rights Reserved.
         </p>
-     </div> 
+     </div>  -->
+
+
     <script src="script.js"></script>
 </body>
 </html>
