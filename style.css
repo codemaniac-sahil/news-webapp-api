@@ -46,14 +46,23 @@ filter: drop-shadow(0px 14px 40px rgba(31, 138, 244, 0.29));
 }
 
 .Top-Heading{
-
-    font-family: 'Satoshi', sans-serif;
+font-family: 'Satoshi', sans-serif;
 font-style: normal;
 font-weight: 900;
-
 text-align: center;
-
+margin-top: -80px;
+margin-bottom: 20px;
 color: #FF765E;
+}
+
+
+
+main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+
 }
 
 /* hr {
@@ -182,17 +191,26 @@ input[type=checkbox] {
     flex-wrap: wrap;
 }
 
-.img img {
-    width: 390.69px;
-    height: 462px;
+/* .img img {
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    width: 50%;
+    height: 500px;
     border-radius: 24px;
     padding: 16px 15px 115px 15px ;
+
     background-color: #FFFFFF;
     border: 1px solid #2292F5;
     box-shadow: 0px 12px 35px rgba(180, 177, 202, 0.2);
     border-radius: 32px;
+   
     
-}
+} */
 
 #world_news {
     display: flex;
@@ -213,7 +231,7 @@ input[type=checkbox] {
     padding: 20px;
 }
 
-#news {
+/* #news {
    
     margin-top:65px;
     margin-left:auto ;
@@ -225,32 +243,42 @@ input[type=checkbox] {
     /* box-sizing: border-box; */
     /* width: 390.69px; */
     /* height: 462px; */
-    
+
+ #news{
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2em;
+    }
+#news .card{
+    background-color: #000000;
+    color: #ffffff;
+    border: none;
 }
 
-.news p {
+#news .card p {
     font-family: 'Satoshi', sans-serif;
     font-style: normal;
     font-weight: 700;
     font-size: 15px;
-    color: #222526;
-    width: 50%;
-    text-align: left;
-    margin: -100px 0 80px 20px;
+    text-align: justify;
     
 }
-.news a {
+#news a {
     font-family: 'Satoshi';
     font-style: normal;
     font-weight: 900;
     font-size: 18px;
-    line-height: 50px;
-    text-decoration-line: underline;
     text-transform: capitalize;
-    color: #FF765E;
-    text-align: left;
+    color: #fefcfc;
+    text-align: center;
     margin-top: 10px;
     
+}
+#news a.btn{
+    text-align: center;
+    margin-left: 40px;
 }
 
 .footer {
