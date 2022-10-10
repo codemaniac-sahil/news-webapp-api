@@ -14,12 +14,22 @@ async function getgeolocation(){
         let response1 = await fetch(full_url);
         let data1 = await response1.json()
         for(var i=0;i<data1.articles.length;i++){
-            document.getElementById("news").innerHTML+=`<div class='news'>  <div class='img'> <img src=${data1.articles[i].image } </div>    <p>${data1.articles[i].title} <br> <a class="read" href='${data1.articles[i].url}'> Read full article </a> </p>
-            </div>
-    
+            document.getElementById("news").innerHTML+=
+            // `<div class='news'>  <div class='img'> <img src=${data1.articles[i].image } </div>    <p>${data1.articles[i].title} <br> <a class="read" href='${data1.articles[i].url}'> Read full article </a> </p>
+            // </div>
             
+
+            `<div class="card" style="width: 18rem;">
+            <img src=${data1.articles[i].image} class="card-img-top" alt="...">
+            <div class="card-body">
+                <p class="card-text">${data1.articles[i].title}</p>
+                 <a href=${data1.articles[i].url} class="btn btn-primary">Read full article</a>
+            </div>
+            </div>
             `
         }
+
+        // <h5 class="card-title">${data1.articles[i].title}</h5>
 
     }
    getnews()
