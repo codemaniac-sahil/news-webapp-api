@@ -348,3 +348,6 @@ input[type=checkbox] {
     cursor:pointer; border:rgb(25, 23, 23);
     opacity:0.9;
    }
+.footer-content{
+    text-align: center;
+}
