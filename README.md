@@ -1,9 +1,19 @@
-
-# NEWS.COM
-
-The website basically shows the top news headline of the country in which the user is browsing the site 
-
-
+<!-- PROJECT LOGO -->
+<br />
+<div align="center">
+    <a href="https://github.com/codemaniac-sahil/news-webapp-api">
+        <img src="./Assets/global.ico" alt="Logo" width="100" height="100">
+    </a>
+    <h2 align="center">NEWS.COM</h2>
+    <p align="center">
+    The website basically shows the top news headline of the country in which the user is browsing the site 
+    <br />
+    <br />
+    <a href="https://github.com/codemaniac-sahil/news-webapp-api/issues/new?assignees=&labels=feature&template=bug_report.md&title=">Report a Bug</a>
+    ·
+    <a href="https://github.com/codemaniac-sahil/news-webapp-api/issues/new?assignees=&labels=feature&template=feature_request.md&title=">Request feature</a>
+    </p>
+</div>
 
 ## Languages Used
 
