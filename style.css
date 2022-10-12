@@ -351,3 +351,8 @@ input[type=checkbox] {
 .footer-content{
     text-align: center;
 }
+
+.dark-mode {
+    background-color: black;
+    color: white;
+  }
