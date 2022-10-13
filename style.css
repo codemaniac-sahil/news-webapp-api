@@ -34,7 +34,7 @@ font-style: normal;
 font-weight: 700;
 font-size: 16px;
 text-transform: uppercase;
-color: #FFFFFF;
+color: white;
 padding: 15px 28px;
 background: linear-gradient(90deg, #2FAAFA 0%, #1F8BF4 100%);
 border-radius: 14px;
@@ -92,7 +92,7 @@ main{
 
 
 .menu li a:hover {
-    background-color: #ffffff;
+    background-color: white;
     color: #000000;
     padding: 10px;
     border-radius: 5px;
