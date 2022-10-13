@@ -353,7 +353,12 @@ input[type=checkbox] {
 
 .dark-mode {
     background-color: black;
+    font-size: medium;
     color: white;
+    padding-left: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    
   }
 
 
@@ -419,6 +424,7 @@ input[type=checkbox] {
   /* Rounded sliders */
   .slider.round {
     border-radius: 34px;
+    
   }
   
   .slider.round:before {
