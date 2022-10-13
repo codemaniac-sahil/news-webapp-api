@@ -65,7 +65,7 @@ main{
 
 }
 
-/* hr {
+ hr {
     height: 1px;
     width: 5%;
     border-style: none;
@@ -175,7 +175,7 @@ input[type=checkbox] {
         width: 100%;
 
     }
-} */
+} 
 
 .news-section {
     display: flex;
@@ -191,26 +191,25 @@ input[type=checkbox] {
     flex-wrap: wrap;
 }
 
-/* .img img {
+.img img {
 
     display: flex;
     align-items: center;
     justify-content: center;
     flex-direction: column;
     flex-wrap: wrap;
-    width: 100%;
-    width: 50%;
+    width: auto;
     height: 500px;
     border-radius: 24px;
     padding: 16px 15px 115px 15px ;
-
+    margin: auto;
     background-color: #FFFFFF;
     border: 1px solid #2292F5;
     box-shadow: 0px 12px 35px rgba(180, 177, 202, 0.2);
     border-radius: 32px;
    
     
-} */
+}
 
 #world_news {
     display: flex;
