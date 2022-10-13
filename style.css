@@ -308,6 +308,7 @@ input[type=checkbox] {
 #c,
 #a {
     color: whitesmoke;
+    font-weight: medium;
 }
 
 .footer-content {
@@ -469,7 +470,7 @@ input[type=checkbox] {
   .navbar.active{
     background-color: #000;
     color: white;
-  
+    padding: 0px;
   }
   
   
@@ -493,5 +494,11 @@ input[type=checkbox] {
     transform: translateX(-20px);
   
   
+  }
+
+  /* footer section tag */
+
+  .fotext{
+    font-weight: 150px;
   }
   
