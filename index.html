@@ -17,7 +17,6 @@
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
       crossorigin="anonymous"
     />
-  
 
     <!-- tailwind CSS -->
     <link
@@ -25,10 +24,6 @@
       href="https://unpkg.com/flowbite@1.5.3/dist/flowbite.min.css"
     />
     <script src="https://unpkg.com/flowbite@1.5.3/dist/flowbite.js"></script>
-    <button onclick="myFunction()"><b>Dark Mode</b></button>
-
-
-
   </head>
   <style>
     p {
@@ -36,14 +31,15 @@
     }
   </style>
   <body>
+    <!-- dark mode toggle -->
+    <div class="darkMode">
+      <span>Dark Mode</span>
+      <label class="switch">
+        <input type="checkbox" onchange="myFunction()" />
+        <span class="slider round"></span>
+      </label>
+    </div>
     <!-- nav bar  -->
-    <script>
-      function myFunction() {
-         var element = document.body;
-         element.classList.toggle("dark-mode");
-      }
-      </script>
-
 
     <nav class="bg-white border-gray-200 px-2 sm:px-4 py-3 navbar">
       <div
@@ -120,7 +116,7 @@
         <div id="country"></div>
       </h1>
 
-    <div id="news"></div>
+      <div id="news"></div>
     </main>
 
     <!-- <div class="news-section">
@@ -161,10 +157,10 @@
       <a href="#"><i class="fab fa-twitter"></i></a>
       <a href="#"><i class="fab fa-facebook"></i></a>
     </div>
+
     <div class="footer-content">
-    <div class="footer-content">
-        <p> © 2022 Copyright News. All Rights Reserved.</p>
-     </div> 
+      <p>© 2022 Copyright News. All Rights Reserved.</p>
+    </div>
 
     <script src="script.js"></script>
   </body>
