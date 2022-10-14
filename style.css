@@ -1,4 +1,6 @@
 @import url('https://api.fontshare.com/v2/css?f[]=satoshi@900,700,500,400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
     background-color: #ffffff;
@@ -307,7 +309,7 @@ input[type=checkbox] {
     
     text-decoration: none;
     color: white;
-    font-family: consolas;
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 
@@ -520,4 +522,9 @@ input[type=checkbox] {
 
 .hovereffect:hover{
   color: #000000;
+}
+
+#a, #b, #c{
+  font-family: 'Playfair Display', serif;
+  font-size: 1.25rem;   
 }
