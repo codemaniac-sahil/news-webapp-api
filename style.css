@@ -518,6 +518,6 @@ input[type=checkbox] {
   }
   
 
-.footer li a:hover{
+.hovereffect:hover{
   color: #000000;
 }
