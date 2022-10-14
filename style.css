@@ -304,10 +304,12 @@ input[type=checkbox] {
 }
 
 .footer li a {
+    
     text-decoration: none;
     color: white;
     font-family: consolas;
 }
+
 
 #b,
 #c,
@@ -515,3 +517,7 @@ input[type=checkbox] {
     color: #0077b5;
   }
   
+
+.hovereffect:hover{
+  color: #000000;
+}
