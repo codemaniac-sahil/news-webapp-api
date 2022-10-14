@@ -24,7 +24,7 @@ async function getgeolocation(){
             // </div>
             
 
-            `<div class="card" style="width: 18rem;">
+            `<div class="card" style="width: 20em;height: 20em;">
             <img src=${data1.articles[i].image} class="card-img-top" alt="...">
             <div class="card-body">
                 <p class="card-text">${data1.articles[i].title}</p>
