@@ -280,6 +280,11 @@ input[type=checkbox] {
     margin-left: 40px;
 }
 
+.card:hover{
+  transform: scale(1.15);
+  transition: 0.5s;
+}
+
 .footer {
     background-color: #242424;
     height: 230px;
