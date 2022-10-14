@@ -30,18 +30,10 @@
       text-align: center;
     }
   </style>
-  <body>
-    <!-- dark mode toggle -->
-    <div class="darkMode">
-      <span>Dark Mode</span>
-      <label class="switch">
-        <input type="checkbox" onchange="myFunction()" />
-        <span class="slider round"></span>
-      </label>
-    </div>
+  <body>    
     <!-- nav bar  -->
 
-    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-3 navbar">
+    <nav class="bg-white border-gray-200 px-2 sm:px-4 navbar">
       <div
         class="container flex flex-wrap justify-between items-center mx-auto"
       >
@@ -72,7 +64,7 @@
         </button>
         <div class="hidden w-full md:block md:w-auto" id="navbar-default">
           <ul
-            class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            class="flex flex-col p-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
           >
             <li>
               <a href="#" class="navBtns" aria-current="page">Home</a>
@@ -88,6 +80,12 @@
             </li>
             <li class="sm:mt-11">
               <a href="#" class="contact">Contact Us</a>
+            </li>
+            <li class="sm:mt-11">
+              <label class="switch">
+                <input type="checkbox" onchange="myFunction()" />
+                <span class="slider round"></span>
+              </label>
             </li>
           </ul>
         </div>
