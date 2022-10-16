@@ -1,6 +1,19 @@
 // https://gnews.io/api/v4/top-headlines?token=a175ac9bf19a19e7e95f50136ebffcbb&country=in&lang=en
 //https://newsapi.org/v2/top-headlines?sources=bbc-news&apiKey=efbe6953b5e24dc7857c47ac7e35e650
 
+
+
+ const ball = document.querySelector(".toggle-ball");
+ const items = document.querySelectorAll("body,main,.dark,.container,div,.toggle,ul,.footer,.button,.icon-container,.navHai,nav,.social,.hovereffect");
+ ball.addEventListener("click",()=>{
+
+     items.forEach(item=>{
+         item.classList.toggle("active")
+     })
+     ball.classList.toggle("active")
+ })
+
+
 function myFunction() {
   var element = document.body;
   element.classList.toggle("dark-mode");
