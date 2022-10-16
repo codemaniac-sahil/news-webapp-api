@@ -467,6 +467,7 @@ input[type=checkbox] {
   font-size: 1.25rem;   
 }
 
+
 .toggle{
   width: 40px;
   height: 22px;
@@ -546,3 +547,13 @@ nav{
 .dark.active{
   color: white;
 }
+/* News loading error text styles */
+.error-container {
+  max-width: 80vw;
+  padding: 2rem;
+  margin: 3rem 5rem 5rem 5rem;
+  border-radius: 10px;
+  font-size: 1.25rem;
+  font-weight: 500;
+}
+
