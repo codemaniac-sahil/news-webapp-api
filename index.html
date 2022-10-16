@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+    <script src="https://kit.fontawesome.com/f390425e8d.js" crossorigin="anonymous"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -33,9 +34,9 @@
   <body>    
     <!-- nav bar  -->
 
-    <nav class="bg-white border-gray-200 px-2 sm:px-4 navbar">
+    <nav class="bg-black border-gray-200 px-2 sm:px-4 navbar">
       <div
-        class="container flex flex-wrap justify-between items-center mx-auto"
+        class=" navHai container flex flex-wrap justify-between items-center mx-auto"
       >
         <a href="#" class="flex items-center">
           <img src="./Assets/logo.png" class="h-10 sm:h-8" alt="Logo" />
@@ -62,7 +63,7 @@
             ></path>
           </svg>
         </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <div class=" right hidden w-full md:block md:w-auto" id="navbar-default">
           <ul
             class="flex flex-col p-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
           >
@@ -70,7 +71,7 @@
               <a href="#" class="navBtns" aria-current="page">Home</a>
             </li>
             <li>
-              <a class="hoverLink" href="#" class="dark">Latest News</a>
+              <a class=" dark hoverLink" href="#" class="dark">Latest News</a>
             </li>
             <li>
               <a href="#" class="dark">top News</a>
@@ -81,12 +82,11 @@
             <li class="sm:mt-9 my-4 -ml-1 md:ml-0">
               <a href="./contactform.html" class="contact">Contact Us</a>
             </li>
-            <li class="sm:mt-11">
-              <label class="switch">
-                <input type="checkbox" onchange="myFunction()" />
-                <span class="slider round"></span>
-              </label>
-            </li>
+            <div class="toggle">
+              <i class="fa-solid fa-moon toggle-icon"></i>
+                <i class="fa-solid fa-sun toggle-icon"></i>
+                <div class="toggle-ball"></div>
+            </div>
           </ul>
         </div>
       </div>
@@ -156,7 +156,7 @@
       <div class="button">
           
           <div class="icon">
-              <i class="fab fa-facebook-f"></i>
+              <i class=" social fab fa-facebook-f"></i>
           </div>
           <span>
               Facebook
@@ -166,7 +166,7 @@
       </div>
       <div class="button">
           <div class="icon">
-              <i class="fab fa-instagram"></i>
+              <i class="social fab fa-instagram"></i>
           </div>
           <span>
               Instagram
@@ -174,7 +174,7 @@
       </div>
       <div class="button">
           <div class="icon">
-              <i class="fab fa-github"></i>
+              <i class=" social fab fa-github"></i>
           </div>
           <span>
               Github
@@ -182,7 +182,7 @@
       </div>
       <div class="button">
           <div class="icon">
-              <i class="fab fa-youtube"></i>
+              <i class="social fab fa-youtube"></i>
           </div>
           <span>
               YouTube
@@ -190,7 +190,7 @@
       </div>
       <div class="button">
           <div class="icon">
-              <i class="fab fa-linkedin"></i>
+              <i class=" social fab fa-linkedin"></i>
           </div>
           <span>
               Linkedin

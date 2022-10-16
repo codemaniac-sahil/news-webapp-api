@@ -184,6 +184,10 @@ input[type=checkbox] {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
+    align-self: center;
+    position: absolute;
+    top: 70px;;
+    
 }
 
 .news-section1 {
@@ -360,79 +364,13 @@ input[type=checkbox] {
     text-align: center;
 }
 
-.dark-mode {
-    background-color: black;
-    color: white;
-  }
-
-
-  /*for toggle btn  */
 
 
 
 
-  .switch {
-    position: relative;
-    display: inline-block;
-    width: 40px;
-    height: 20px;
-    margin-top: 2px;
-  }
+
   
-  /* Hide default HTML checkbox */
-  .switch input {
-    opacity: 0;
-    width: 0;
-    height: 0;
-  }
-  
-  /* The slider */
-  .slider {
-    position: absolute;
-    cursor: pointer;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-color: #ccc;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  .slider:before {
-    position: absolute;
-    content: "";
-    height: 13px;
-    width: 13px;
-    left: 4px;
-    bottom: 3px;
-    background-color: white;
-    -webkit-transition: .4s;
-    transition: .4s;
-  }
-  
-  input:checked + .slider {
-    background-color:rgb(87, 80, 80);
-  }
-  
-  input:focus + .slider {
-    box-shadow: 0 0 1px rgb(49, 48, 48);
-  }
-  
-  input:checked + .slider:before {
-    -webkit-transform: translateX(26px);
-    -ms-transform: translateX(26px);
-    transform: translateX(18px);
-  }
-  
-  /* Rounded sliders */
-  .slider.round {
-    border-radius: 34px;
-  }
-  
-  .slider.round:before {
-    border-radius: 50%;
-  }
+
 
   .icon-container {
     width: 100%;
@@ -527,4 +465,84 @@ input[type=checkbox] {
 #a, #b, #c{
   font-family: 'Playfair Display', serif;
   font-size: 1.25rem;   
+}
+
+.toggle{
+  width: 40px;
+  height: 22px;
+  margin-left: 25px;
+  background-color: whitesmoke;
+  border-radius: 30px;     
+  display: flex;
+  align-items: center;
+  justify-content:  space-around;
+  position: relative;
+
+}
+
+.toggle-icon{
+  color: goldenrod;
+}
+
+
+
+.toggle-ball{
+
+  width: 18px;
+  height: 18px;
+  background-color: black;
+  position: absolute;
+  right: 1px;
+  border-radius: 50%;
+  cursor: pointer;
+
+}
+body.active{
+  background-color: #000000;
+}
+main.active{
+  background-color: #000000;
+}
+.container.active{
+  background-color:#000000;
+}
+div.active{
+  background-color: #000000;
+}
+
+ul.active{
+  background-color: #000000;
+}
+.footer.active{
+  background-color: #000000;
+}
+ .hovereffect.active{
+  color: white;
+ }
+.button.active{
+  background-color:blueviolet ;
+}
+.social.active{
+  color: white;
+}
+.icon-container.active{
+  background-color: #000000;
+}
+nav{
+  font-weight: bold;
+}
+.navHai.active{
+  background-color: #000000;
+}
+.toggle.active{
+  background-color: black;
+}
+
+.toggle-ball.active{
+  background-color: white;
+  transform: translateX(-20px);
+}
+
+.dark.active{
+  color: white;
 }
