@@ -5,47 +5,55 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>News.com | Get every news on your fingertips</title>
-    <link rel="stylesheet" href="style.css">
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="./world_news_style.css">
 </head>
 <body>
     <div class="navbar">
-        <div class="logo">NEWS.com</div>
-        <ul class="navlinks">
-            <input type="checkbox" id="checkbox_toggle" />
-            <label for="checkbox_toggle" class="hamburger">&#9776;</label>
+        <!-- <div class="logo">NEWS.com</div> -->
+            <img class="logo" src="./Assets/logo.png" alt="logo">
+            <!-- <input type="checkbox" id="checkbox_toggle" />
+            <label for="checkbox_toggle" class="hamburger">&#9776;</label> -->
      
             <div class="menu">
-                <li><a href="#">Home</a></li>
-                <li><a href="#">Latest News</a></li>
-                <li><a href="#">Top News</a></li>
-                <li><a href="world_news.html">World</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <a href="#">Home</a>
+                <a href="#">Latest News</a>
+                <a href="#">Top News</a>
+                <a href="world_news.html">World</a>
+                <a href="#">Contact Us</a>
             </div>
-        </ul>
+        
     </div>
     <div class="news-section1">
         <div class="news-heading1">
-            <h1>World News </h1><br>
+            <h1>World <span class="orange">News</span> </h1>
         </div>
     </div>
+
     <div id="world_news">
 
     </div>
     <div class="footer">
+            <img class="logo" src="./Assets/logo.png" alt="logo">
+
         <ul class="list1">
+            <p>Quick Links</p>
             <li><a href="#">About us</a></li>
             <li><a href="#">Contact us</a></li>
             <li><a href="#">Privacy Policy</a></li>
-            <li><a href="#">Quick links</a></li>
         </ul>
         <ul class="list2">
+            <p>Navigation</p>
             <li><a href="#">Latest News</a></li>
             <li><a href="#">Live TV</a></li>
             <li><a href="#">Bollywood News</a></li>
             <li><a href="#">Politics</a></li>
         </ul>
         <ul class="list3">
+            <p>Misc</p>
             <li><a href="#">FAQ's</a></li>
             <li><a href="#">Feedback</a></li>
         </ul>

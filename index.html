@@ -11,6 +11,7 @@
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
     />
+    <script src="https://kit.fontawesome.com/f390425e8d.js" crossorigin="anonymous"></script>
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -30,20 +31,12 @@
       text-align: center;
     }
   </style>
-  <body>
-    <!-- dark mode toggle -->
-    <div class="darkMode">
-      <span>Dark Mode</span>
-      <label class="switch">
-        <input type="checkbox" onchange="myFunction()" />
-        <span class="slider round"></span>
-      </label>
-    </div>
+  <body>    
     <!-- nav bar  -->
 
-    <nav class="bg-white border-gray-200 px-2 sm:px-4 py-3 navbar">
+    <nav class="bg-black border-gray-200 px-2 sm:px-4 navbar">
       <div
-        class="container flex flex-wrap justify-between items-center mx-auto"
+        class=" navHai container flex flex-wrap justify-between items-center mx-auto"
       >
         <a href="#" class="flex items-center">
           <img src="./Assets/logo.png" class="h-10 sm:h-8" alt="Logo" />
@@ -70,25 +63,30 @@
             ></path>
           </svg>
         </button>
-        <div class="hidden w-full md:block md:w-auto" id="navbar-default">
+        <div class=" right hidden w-full md:block md:w-auto" id="navbar-default">
           <ul
-            class="flex flex-col p-4 mt-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
+            class="flex flex-col align-items-center p-4 bg-gray-50 rounded-lg border border-gray-100 md:flex-row md:space-x-8 md:mt-0 md:border-0 md:bg-white dark:bg-gray-800 md:dark:bg-gray-900 dark:border-gray-700"
           >
             <li>
               <a href="#" class="navBtns" aria-current="page">Home</a>
             </li>
             <li>
-              <a href="#" class="dark">Latest News</a>
+              <a class=" dark hoverLink" href="#" class="dark">Latest News</a>
             </li>
             <li>
               <a href="#" class="dark">top News</a>
             </li>
             <li>
-              <a href="#" class="dark">World</a>
+              <a href="./world_news.html" class="dark">World</a>
             </li>
-            <li class="sm:mt-11">
-              <a href="#" class="contact">Contact Us</a>
+            <li class="sm:mt-9 my-4 -ml-1 md:ml-0">
+              <a href="./contactform.html" class="contact">Contact Us</a>
             </li>
+            <div class="toggle">
+              <i class="fa-solid fa-moon toggle-icon"></i>
+                <i class="fa-solid fa-sun toggle-icon"></i>
+                <div class="toggle-ball"></div>
+            </div>
           </ul>
         </div>
       </div>
@@ -130,26 +128,32 @@
 
     <div class="footer">
       <ul class="list1">
-        <span id="b"> <strong><u>ABOUT</u></strong> </span
+
+        <span id="b" class="hovereffect"> <strong><u>ABOUT</u></strong> </span
+
         ><br />
-        <li><a href="#">About us</a></li>
-        <li><a href="#">Contact us</a></li>
-        <li><a href="#">Privacy Policy</a></li>
-        <li><a href="#">Quick links</a></li>
+        <li><a href="#" class="hovereffect">About us</a></li>
+        <li><a href="#" class="hovereffect">Contact us</a></li>
+        <li><a href="#" class="hovereffect">Privacy Policy</a></li>
+        <li><a href="#" class="hovereffect">Quick links</a></li>
       </ul>
       <ul class="list2">
-        <span id="c"><strong><u>NEWS LINKS</u></strong></span>
+
+        <span id="c" class="hovereffect"><strong><u>NEWS LINKS</u></strong></span>
+
         <br />
-        <li><a href="#">Latest News</a></li>
-        <li><a href="#">Live TV</a></li>
-        <li><a href="#">Bollywood News</a></li>
-        <li><a href="#">Politics</a></li>
+        <li><a href="#" class="hovereffect">Latest News</a></li>
+        <li><a href="#" class="hovereffect">Live TV</a></li>
+        <li><a href="#" class="hovereffect">Bollywood News</a></li>
+        <li><a href="#" class="hovereffect">Politics</a></li>
       </ul>
       <ul class="list3">
-        <span id="a"><strong><u>SUPPORT</u></strong></span
+
+        <span id="a" class="hovereffect"><strong><u>SUPPORT</u></strong></span
+
         ><br />
-        <li><a href="#">FAQ's</a></li>
-        <li><a href="#">Feedback</a></li>
+        <li><a href="#" class="hovereffect">FAQ's</a></li>
+        <li><a href="#" class="hovereffect">Feedback</a></li>
       </ul>
     </div>
 
@@ -158,7 +162,7 @@
       <div class="button">
           
           <div class="icon">
-              <i class="fab fa-facebook-f"></i>
+              <i class=" social fab fa-facebook-f"></i>
           </div>
           <span>
               Facebook
@@ -168,7 +172,7 @@
       </div>
       <div class="button">
           <div class="icon">
-              <i class="fab fa-instagram"></i>
+              <i class="social fab fa-instagram"></i>
           </div>
           <span>
               Instagram
@@ -176,7 +180,7 @@
       </div>
       <div class="button">
           <div class="icon">
-              <i class="fab fa-github"></i>
+              <i class=" social fab fa-github"></i>
           </div>
           <span>
               Github
@@ -184,7 +188,7 @@
       </div>
       <div class="button">
           <div class="icon">
-              <i class="fab fa-youtube"></i>
+              <i class="social fab fa-youtube"></i>
           </div>
           <span>
               YouTube
@@ -192,7 +196,7 @@
       </div>
       <div class="button">
           <div class="icon">
-              <i class="fab fa-linkedin"></i>
+              <i class=" social fab fa-linkedin"></i>
           </div>
           <span>
               Linkedin
