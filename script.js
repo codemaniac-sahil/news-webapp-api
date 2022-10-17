@@ -15,6 +15,7 @@
 
 
 function myFunction() {
+
   var element = document.body;
   element.classList.toggle("dark-mode");
 }
@@ -40,6 +41,7 @@ async function getgeolocation() {
           "news"
         ).innerHTML += `<div class="card" style="width: 18rem;">
             <img src=${newsData.articles[i].image} class="card-img-top" alt="...">
+
             <div class="card-body">
                 <p class="card-text">${newsData.articles[i].title}</p>
                  <a href=${newsData.articles[i].url} class="btn btn-primary">Read full article</a>
