@@ -46,7 +46,7 @@ async function getworld_news() {
     light = document.querySelector('.light');
     dark.style.display = 'none';
     let response2 = await fetch(
-        "https://gnews.io/api/v4/top-headlines?token=eda17c6b4e1661b23d3253bcd5156d2f&lang=en"
+        "https://gnews.io/api/v4/top-headlines?token=a175ac9bf19a19e7e95f50136ebffcbb&lang=en"
     //     "https://gnews.io/api/v4/top-headlines?token=a175ac9bf19a19e7e95f50136ebffcbb&country=" +
     //   'india' +
     //   "&lang=" +
