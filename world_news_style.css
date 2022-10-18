@@ -4,13 +4,14 @@ body{
     padding: 0;
     background-color: #f5f5f5;
     box-sizing: border-box;
+    
 }
 .orange{
     color: #F58821;
 }
 .navbar{
     display: flex;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
     top:0;
     padding: 1em; 
@@ -23,8 +24,14 @@ body{
     padding-top:1.4em;
 }
 .menu > a:hover {
-    color: #F58821;
+    color: #F58821 !important;
     transition: 100ms;
+}
+.menu a {
+    color:inherit !important;
+}
+.toggler-button{
+    cursor: pointer;
 }
 .news-section1{
     margin-top: 11vh;
@@ -39,7 +46,7 @@ body{
     justify-content: space-between;
     align-items: center;
     gap:1em;
-    margin-right: 2em;
+    margin-right: 5vw;
 
 }
 #world_news{
@@ -55,6 +62,8 @@ body{
     margin: .5em;
     background-color: #fff;
     padding-bottom: .2em;
+    overflow: hidden;
+    padding-bottom: 30px;
 }
 .img:hover{
     /* border: .5px solid #F58821; */
@@ -66,6 +75,19 @@ img{
     height: 15em;
     border-radius: 3px;
 }
+.toggler-button{
+    position: fixed;
+    background-color: rgb(209, 255, 6);
+    border-radius: 50%;
+    width:50px;
+    height: 50px;
+    bottom:4vh;
+    right:4vw;  
+    box-shadow: 2px 2px 10px #6e6e6e;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 .title{
     height: 5em;
     overflow: hidden;
@@ -73,6 +95,11 @@ img{
     padding-right:1em;
     font-size: 1.1em;
     font-weight: 600;
+    margin-top: 0px;
+    padding-top: 1em;
+    overflow: hidden;
+    width: fit-content;
+    height: fit-content;
 }
 .footer{
     height: 22vh;

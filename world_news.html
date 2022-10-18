@@ -8,17 +8,22 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Merriweather:wght@300;400;700;900&display=swap" rel="stylesheet">
+<script src="https://kit.fontawesome.com/f390425e8d.js" crossorigin="anonymous"></script>
     <!-- <link rel="stylesheet" href="style.css"> -->
     <link rel="stylesheet" href="./world_news_style.css">
 </head>
-<body>
-    <div class="navbar">
+<body class="body">
+    <div class="toggler-button" onclick="toggle()">
+        <i class="fa-solid fa-moon dark"></i>
+        <i class="fa-solid fa-sun light"></i>
+    </div>
+    <div class="navbar darker">
         <!-- <div class="logo">NEWS.com</div> -->
             <img class="logo" src="./Assets/logo.png" alt="logo">
             <!-- <input type="checkbox" id="checkbox_toggle" />
             <label for="checkbox_toggle" class="hamburger">&#9776;</label> -->
      
-            <div class="menu">
+            <div class="menu text">
                 <a href="#">Home</a>
                 <a href="#">Latest News</a>
                 <a href="#">Top News</a>
@@ -29,7 +34,7 @@
     </div>
     <div class="news-section1">
         <div class="news-heading1">
-            <h1>World <span class="orange">News</span> </h1>
+            <h1><span class = "text">World</span> <span class="orange">News</span> </h1>
         </div>
     </div>
 
