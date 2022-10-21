@@ -3,11 +3,11 @@
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
 body {
-    background-color: #ffffff;
+    background-color: hsl(93, 100%, 50%);
 }
 
 .navbar {
-    box-shadow: 0px 14px 40px rgba(180, 177, 202, 0.3);
+    box-shadow: 0px 14px 40px rgb(73, 16, 138);
 
 }
 
@@ -18,7 +18,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
-    color: #FF765E;
+    color: #d34e8c;
 
 }
 
@@ -54,7 +54,7 @@ font-weight: 900;
 text-align: center;
 margin-top: -80px;
 margin-bottom: 20px;
-color: #FF765E;
+color: #f53a91;
 }
 
 
@@ -71,7 +71,7 @@ main{
     height: 1px;
     width: 5%;
     border-style: none;
-    border-color: rgb(181, 181, 181);
+    border-color: rgba(206, 54, 155, 0.856);
     border-top-style: dotted;
     border-top-width: 7px;
 }
@@ -165,6 +165,7 @@ input[type=checkbox] {
 
     .dropdown li:hover {
         background-color: #000000;
+        cursor: pointer;
     }
 
     .menu a {
@@ -210,7 +211,7 @@ input[type=checkbox] {
     padding: 16px 15px 115px 15px ;
     margin: auto;
     background-color: #FFFFFF;
-    border: 1px solid #2292F5;
+    border: 1px solid #f0730d;
     box-shadow: 0px 12px 35px rgba(180, 177, 202, 0.2);
     border-radius: 32px;
    
