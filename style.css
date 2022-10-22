@@ -2,14 +2,15 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-body {
+/* body {
     background-color: hsl(93, 100%, 50%);
-}
+} */
 
 .navbar {
-    box-shadow: 0px 14px 40px rgb(73, 16, 138);
-
+    box-shadow: 0px 14px 40px rgb(2, 25, 70);
+     background-color: white;
 }
+
 
 .navBtns{
 
@@ -18,7 +19,7 @@ body {
     font-weight: 700;
     font-size: 16px;
     text-transform: uppercase;
-    color: #d34e8c;
+    color: #4e8ce9;
 
 }
 
@@ -48,13 +49,13 @@ filter: drop-shadow(0px 14px 40px rgba(31, 138, 244, 0.29));
 }
 
 .Top-Heading{
-font-family: 'Satoshi', sans-serif;
+font-family:'Times New Roman', Times, serif;
 font-style: normal;
 font-weight: 900;
 text-align: center;
 margin-top: -80px;
 margin-bottom: 20px;
-color: #f53a91;
+color: #dee107;
 }
 
 
@@ -64,6 +65,7 @@ main{
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    background-color: #f7f2eb;
 
 }
 
@@ -180,7 +182,7 @@ input[type=checkbox] {
     }
 } 
 
-.news-section {
+/* .news-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -196,7 +198,7 @@ input[type=checkbox] {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-}
+} */
 
 .img img {
 
@@ -292,17 +294,37 @@ input[type=checkbox] {
   transition: 0.5s;
 }
 
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+
+::-webkit-scrollbar-track {
+  background: #ebdac4; 
+}
+ 
+
+::-webkit-scrollbar-thumb {
+  background: rgb(218, 187, 151); 
+}
+
+
+::-webkit-scrollbar-thumb:hover {
+  background: rgb(171, 145, 61); 
+}
+
 .footer {
-    background-color: #242424;
+    background-color:  #c5b48c;
     height: 230px;
     margin-top: 50px;
     display: flex;
     justify-content: space-evenly;
     padding: 20px 28px;
-    background-color: grey;
     gap: 2em;
+    box-shadow: 0px 14px 40px rgb(96, 136, 222);
 
 }
+
 
 .footer li {
     list-style: none;
@@ -314,56 +336,32 @@ input[type=checkbox] {
     
     text-decoration: none;
     color: white;
-    font-family: 'Source Sans Pro', sans-serif;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 
 #b,
 #c,
 #a {
-    color: whitesmoke;
+    color: rgb(224, 228, 16);
 }
 
 .footer-content {
     display: flex;
     justify-content: center;
     margin: auto;
-
+    text-align: center;
     bottom: 0;
     display: block;
-    font-size: 20px;
-    font-weight: bold;
+    font-size: 18px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     align-items: center;
     justify-items: baseline;
     margin: auto;
    margin: 0; 
+   color:rgb(60, 70, 213);
+   background-color:rgb(247, 235, 199);
    }
-
-  .socials{
-    text-align: center;
-    color:rgb(25, 23, 23);
-    padding-bottom: 20px;
-    padding-top: 20px;
-   }
-
-   .socials a{
-    color:inherit;
-    border:1px solid black;
-    font-size: 25px;
-    height:41px;
-    width:41px;
-    display: inline-block;
-    text-align:center;
-    border-radius: 50%;
-   }
-
-   .socials a:hover{
-    cursor:pointer; border:rgb(25, 23, 23);
-    opacity:0.9;
-   }
-.footer-content{
-    text-align: center;
-}
 
 
 
@@ -379,7 +377,7 @@ input[type=checkbox] {
     display: flex;
     justify-content: center;
     align-items: center;
-    background-color: rgb(205, 204, 204);
+    background-color: rgb(247, 235, 199);
   }
   .icon-container .button {
     width: 60px;
@@ -464,7 +462,7 @@ input[type=checkbox] {
 }
 
 #a, #b, #c{
-  font-family: 'Playfair Display', serif;
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
   font-size: 1.25rem;   
 }
 
@@ -500,13 +498,13 @@ input[type=checkbox] {
 
 }
 body.active{
-  background-color: #000000;
+  background-color: rgb(5, 0, 0);
 }
 main.active{
-  background-color: #000000;
+  background-color: rgb(5, 0, 0);
 }
 .container.active{
-  background-color:#000000;
+  background-color:rgb(2, 0, 0);
 }
 div.active{
   background-color: #000000;
@@ -545,8 +543,19 @@ nav{
   transform: translateX(-20px);
 }
 
+.Top-Heading.active{
+  font-family:'Times New Roman', Times, serif;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  margin-top: -80px;
+  margin-bottom: 20px;
+  color: #fbfaf9;
+  }
+
 .dark.active{
   color: white;
+  
 }
 /* News loading error text styles */
 .error-container {
