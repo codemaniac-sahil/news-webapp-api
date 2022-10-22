@@ -26,7 +26,7 @@ async function getgeolocation() {
   let data = await response.json();
   var current_location = data.country_code;
   var current__lang = data.languages;
-  document.getElementById("country").innerHTML = data.country_name.toUpperCase();
+  document.getElementById("country").innerHTML = data.country_name;
   async function getnews() {
     let full_url =
       "https://gnews.io/api/v4/top-headlines?token=a175ac9bf19a19e7e95f50136ebffcbb&country=" +
