@@ -569,3 +569,12 @@ nav{
     background-color: #d1e7ef;
 }
 
+.preloader{
+  background: white url(Assets/loader4.gif)  no-repeat center center;
+  background-size: 30%;
+  height: 100vh;
+  width: 100%;
+  position: fixed;
+  z-index: 100;
+}
+

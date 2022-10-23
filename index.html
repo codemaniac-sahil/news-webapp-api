@@ -31,7 +31,8 @@
       text-align: center;
     }
   </style>
-  <body>    
+  <body> 
+    <div class="preloader"></div>
     <!-- nav bar  -->
 <div class="sticky-top">
     <nav class="bg-blue border-gray-200 px-2 sm:px-4 navbar">
@@ -108,7 +109,6 @@
             </div>
         </ul>
     </div> -->
-
     <main>
       <h1 class="pt-24 Top-Heading text-4xl sm:text-xl">
         Top Headlines of <div id="country"></div>
@@ -116,6 +116,7 @@
 
       <div id="news"></div>
     </main>
+
 
     <!-- <div class="news-section">
         <div class="news-heading">
@@ -212,5 +213,11 @@
     </div>
 
     <script src="script.js"></script>
+    <script>
+      var loader = document.getElementsByClassName("preloader");
+      window.addEventListener("load", function(){
+        loader[0].style.display = "none";
+      })
+    </script>
   </body>
 </html>
