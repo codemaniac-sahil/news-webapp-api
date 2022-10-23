@@ -55,7 +55,7 @@ For support, reach me out at [@bisht_6903](https://twitter.com/Bisht_6903)
 
 You can check out the site from the below link 
 
-https://harmonious-figolla-9338f7.netlify.app/
+https://news-web-app-js.netlify.app
 
 # Thanks to all Contributors
 
