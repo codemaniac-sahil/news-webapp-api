@@ -2,13 +2,12 @@
 @import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Playfair+Display&display=swap');
 
-/* body {
-    background-color: hsl(93, 100%, 50%);
-} */
+body {
+  background-color: #f0e2e2;
+}
 
 .navbar {
-    box-shadow: 0px 14px 40px rgb(2, 25, 70);
-     background-color: white;
+    background-color: white;
 }
 
 
@@ -46,36 +45,33 @@ filter: drop-shadow(0px 14px 40px rgba(31, 138, 244, 0.29));
 
 .contact:hover{
     filter: drop-shadow(0px 20px 42px rgba(31, 138, 244, 0.492));
+    transform: scale(1.05);
 }
 
 .Top-Heading{
-font-family:'Times New Roman', Times, serif;
-font-style: normal;
-font-weight: 900;
-text-align: center;
-margin-top: -80px;
-margin-bottom: 20px;
-color: #dee107;
-}
+  font-family: 'Satoshi', sans-serif;
+  font-style: normal;
+  font-weight: 900;
+  text-align: center;
+  margin-top: -80px;
+  margin-bottom: 20px;
+  color: #FF765E;
+  }
 
-
-
-main{
+  main{
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: space-between;
-    background-color: #f7f2eb;
-
 }
 
- hr {
-    height: 1px;
-    width: 5%;
-    border-style: none;
-    border-color: rgba(206, 54, 155, 0.856);
-    border-top-style: dotted;
-    border-top-width: 7px;
+hr {
+  height: 1px;
+  width: 5%;
+  border-style: none;
+  border-color: rgb(181, 181, 181);
+  border-top-style: dotted;
+  border-top-width: 7px;
 }
 
 .menu {
@@ -182,7 +178,7 @@ input[type=checkbox] {
     }
 } 
 
-/* .news-section {
+.news-section {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -198,26 +194,26 @@ input[type=checkbox] {
     align-items: center;
     justify-content: center;
     flex-wrap: wrap;
-} */
+}
 
 .img img {
 
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    width: auto;
-    height: 500px;
-    border-radius: 24px;
-    padding: 16px 15px 115px 15px ;
-    margin: auto;
-    background-color: #FFFFFF;
-    border: 1px solid #f0730d;
-    box-shadow: 0px 12px 35px rgba(180, 177, 202, 0.2);
-    border-radius: 32px;
-   
-    
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  width: auto;
+  height: 500px;
+  border-radius: 24px;
+  padding: 16px 15px 115px 15px ;
+  margin: auto;
+  background-color: #FFFFFF;
+  border: 1px solid #2292F5;
+  box-shadow: 0px 12px 35px rgba(180, 177, 202, 0.2);
+  border-radius: 32px;
+ 
+  
 }
 
 #world_news {
@@ -260,10 +256,10 @@ input[type=checkbox] {
     gap: 2em;
     }
 #news .card{
-    background-color: #000000;
+  background-color: #0c0a37;
     color: #ffffff;
-    border: none;
-}
+    border: 5px solid #555;
+  }
 
 #news .card p {
     font-family: 'Satoshi', sans-serif;
@@ -282,6 +278,7 @@ input[type=checkbox] {
     color: #fefcfc;
     text-align: center;
     margin-top: 10px;
+    border-radius: 10px;
     
 }
 #news a.btn{
@@ -292,25 +289,7 @@ input[type=checkbox] {
 .card:hover{
   transform: scale(1.15);
   transition: 0.5s;
-}
-
-::-webkit-scrollbar {
-  width: 10px;
-}
-
-
-::-webkit-scrollbar-track {
-  background: #ebdac4; 
-}
- 
-
-::-webkit-scrollbar-thumb {
-  background: rgb(218, 187, 151); 
-}
-
-
-::-webkit-scrollbar-thumb:hover {
-  background: rgb(171, 145, 61); 
+  box-shadow: 0px 10px 20px rgba(0,0,0,12), 0 4px 8px rgba(0,0,0,.06);
 }
 
 .footer {
@@ -336,14 +315,14 @@ input[type=checkbox] {
     
     text-decoration: none;
     color: white;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-}
+    font-family: 'Source Sans Pro', sans-serif;
+  }
 
 
 #b,
 #c,
 #a {
-    color: rgb(224, 228, 16);
+  color: whitesmoke;
 }
 
 .footer-content {
@@ -365,13 +344,9 @@ input[type=checkbox] {
 
 
 
-
-
-
-  
-
-
   .icon-container {
+    padding-top: 50px;
+    padding-bottom: 50px;
     width: 100%;
     height: 80px;
     display: flex;
@@ -565,5 +540,32 @@ nav{
   border-radius: 10px;
   font-size: 1.25rem;
   font-weight: 500;
+}
+
+
+/* width */
+::-webkit-scrollbar {
+  width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #070329;
+  border-radius: 10px;
+}
+
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+  background: #061051; 
+}
+
+#data:hover{
+    background-color: #d1e7ef;
 }
 
