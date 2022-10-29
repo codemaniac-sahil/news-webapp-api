@@ -17,11 +17,11 @@
 
 ## Languages Used
 
-**HTML**
+- **HTML**
 
-**CSS**
+- **CSS**
 
-**JAVASCRIPT**
+- **JAVASCRIPT**
 
 
 
@@ -29,9 +29,8 @@
 
 Contributions are always welcome!
 
-See `contributing.md` for ways to get started.
-
-Please adhere to this project's `code of conduct`.
+> Have a look on our [CONTRIBUTING guide](https://github.com/codemaniac-sahil/news-webapp-api/blob/main/CONTRIBUTING.md) for ways to get started.
+> Please adhere to this project's [CODE OF CONDUCT](https://github.com/codemaniac-sahil/news-webapp-api/blob/main/CODE_OF_CONDUCT.md).
 
 
 ## API Reference
@@ -51,11 +50,10 @@ Please adhere to this project's `code of conduct`.
 For support, reach me out at [@bisht_6903](https://twitter.com/Bisht_6903)
 
 
-## Appendix
+## Appendix 
 
-You can check out the site from the below link 
+Check out our [site](https://news-web-app-js.netlify.app)
 
-https://news-web-app-js.netlify.app
 
 # Thanks to all Contributors
 
