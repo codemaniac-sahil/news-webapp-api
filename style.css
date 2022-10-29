@@ -369,9 +369,8 @@ input[type=checkbox] {
     align-items: center;
     justify-items: baseline;
     margin: auto;
-   margin: 0; 
-   color:rgb(60, 70, 213);
-   background-color:#ffffff;
+    color:rgb(60, 70, 213);
+    background-color:#64d9ed;
    }
 
 
